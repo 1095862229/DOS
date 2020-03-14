@@ -1,0 +1,15 @@
+@             	关闭当前命令行回显
+echo          	回显命令
+rem/::       	同是注释echo on打开时rem内容显示::不显示
+pause    	请按任意键继续...
+pause>nul	只暂停，不显示信息，光标移到下一行
+title		即时改变窗口标题
+color		设置控制台前景和背景颜色
+mode		1：设置cmd窗口大小
+		2：显示代码页
+goto		无条件跳转命令
+call		跳转（中断式跳转）
+goto:eof	退出（跳转到脚本尾，不退出cmd）
+exit		退出cmd.exe
+exit/b		退出批处理脚本，不退出cmd.exe
+start		运行指定程序

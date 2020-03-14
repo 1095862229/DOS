@@ -1,0 +1,4 @@
+@echo off
+set/p var=
+echo %var%|findstr /be[0-9.]*>nul && echo Yes||echo No
+pause

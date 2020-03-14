@@ -1,0 +1,9 @@
+@echo off 
+set /p a=请输入一个数字：
+if /i %a%==0(call:o) else (call:t)
+:o
+echo Hello World!
+pause>nul &exit
+:t
+echo This is a bat program
+pause>nul &exit
